@@ -22,12 +22,13 @@ export class CartManager {
     
       async saveCarts(carts) {
         try {
-          await fs.promises.writeFile(this.filePath, JSON.stringify(carts, null, "\t"));
+            const cartsData = JSON.stringify(carts, null, "\t");
+            await fs.promises.writeFile(this.filePath, cartsData, "utf-8");
         } catch (error) {
-          console.log(error.message);
-          throw error;
+            console.log(error.message);
+            throw error;
         }
-      }
+    }
 
     fileExist() {
         return fs.existsSync(this.filePath);

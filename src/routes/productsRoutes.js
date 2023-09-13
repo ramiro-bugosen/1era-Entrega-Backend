@@ -37,7 +37,9 @@ router.post("/", async (req, res) => {
     try{
         const productInfo = req.body;
         const product = await productManager.addProducts(productInfo)
-    }catch(error) {
+        res.send("Producto agregado")
+    }
+    catch(error) {
         res.json({status:"error", message:error.message});
     }
 })
@@ -47,6 +49,7 @@ router.put("/:productId", async (req, res) =>{
         const productId = parseInt(req.params.productId);
         const productUpdate = req.body;
         const product = await productManager.updateProduct(productId, productUpdate)
+        res.send("Producto actualizado")
     }catch (error) {
         res.json({status:"error", message:error.message});
     }
@@ -56,6 +59,7 @@ router.delete("/:productId", async (req, res) =>{
     try{
         const productId = parseInt(req.params.productId); 
         const product = await productManager.deleteProduct(productId);
+        res.send("Producto eliminado")
     }catch (error){
         res.json({status:"error", message:error.message});
     }
