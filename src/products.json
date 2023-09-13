@@ -1,0 +1,79 @@
+[
+	{
+		"id": 1,
+		"title": "Computadora de la prehistoria",
+		"category": "Desktop",
+		"description": "Computadora de hace 50 años de antiguedad",
+		"price": 120000,
+		"thumbnail": "Sin Imagen",
+		"code": "abc001",
+		"stock": 1,
+		"status": true
+	},
+	{
+		"id": 2,
+		"title": "Computadora Gama Alta",
+		"category": "Desktop",
+		"description": "Computadora Intel, i7 11700k",
+		"price": 92000,
+		"thumbnail": "Sin Imagen",
+		"code": "abc002",
+		"stock": 13,
+		"status": true
+	},
+	{
+		"id": 3,
+		"title": "Computadora Gama Media",
+		"category": "Desktop",
+		"description": "Computadora AMD, Ryzen 5 3400g",
+		"price": 87000,
+		"thumbnail": "Sin Imagen",
+		"code": "abc003",
+		"stock": 8,
+		"status": true
+	},
+	{
+		"id": 4,
+		"title": "Computadora Gama Media",
+		"category": "Desktop",
+		"description": "Computadora Intel, i5 9500",
+		"price": 63000,
+		"thumbnail": "Sin Imagen",
+		"code": "abc004",
+		"stock": 13,
+		"status": true
+	},
+	{
+		"id": 5,
+		"title": "Computadora Notbook",
+		"category": "Laptop",
+		"description": "Computadora Notbook, Intel Celeron G5900",
+		"price": 35000,
+		"thumbnail": "Sin Imagen",
+		"code": "abc005",
+		"stock": 27,
+		"status": true
+	},
+	{
+		"id": 6,
+		"title": "Computadora Netbook",
+		"category": "Laptop",
+		"description": "Computadora Netbook, Intel Pentium N6000",
+		"price": 38500,
+		"thumbnail": "Sin Imagen",
+		"code": "abc006",
+		"stock": 19,
+		"status": true
+	},
+	{
+		"id": 7,
+		"title": "Computadora Netbook 144hz",
+		"category": "Laptop",
+		"description": "Computadora Netbook, con graficos vega integrados",
+		"price": 50000,
+		"thumbnail": "Sin Imagen",
+		"code": "abc007",
+		"stock": 6,
+		"status": true
+	}	
+]
